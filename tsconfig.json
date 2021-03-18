@@ -1,0 +1,36 @@
+{
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"./gulpfile.js"
+	],
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"lib": [
+			"dom",
+			"ES2020"
+		],
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"experimentalDecorators": true,
+		"removeComments": false,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"noEmitOnError": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"checkJs": true
+	},
+	"typeAcquisition": {
+		"enable": true
+	}
+}
